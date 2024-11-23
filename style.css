@@ -65,7 +65,7 @@ button {
 
 @media screen and (max-width: 900px) {
   .todos-main {
-    width: 80%;
+    width: 90%;
     margin-top: 70px;
   border-radius: 10px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
@@ -74,11 +74,11 @@ button {
 
   .add-todo,
   .list-todo {
-    margin-top: 20px;
+    margin-top: 10px;
     border-radius: 10px;
   }
   .list-todo {
-    min-height: 300px;
+    min-height: 250px;
   }
 
   .todo-title {
