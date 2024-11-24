@@ -7,16 +7,19 @@ const cardBody = document.querySelector(".card-body");
 const clearButton = document.querySelector("#clear-btn")
 // let modall = document.querySelector("#to__do-modal")
 let todos = [];
-runEvents();
+// runEvents();
 
-function runEvents() {
+// function runEvents() {
+
+// };
+(function () {
     // Hadise dinleyicisini elave et
     document.addEventListener("DOMContentLoaded", DOMLoader);
     form.addEventListener("submit", addTodo);
     todoList.addEventListener("click", removeTodo);
     clearButton.addEventListener("click", clearAllTodos);
     searchInput.addEventListener("keyup", searchTodoUI)
-};
+})()
 
 function DOMLoader() {
     checkTodoToStorage();
